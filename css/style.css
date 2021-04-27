@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,7 +12,6 @@ body {
   background: #fff;
   color: #333;
   line-height: 1.6;
-  scroll-behavior: smooth;
 }
 
 ul {
@@ -35,6 +35,10 @@ p {
 
 img {
   width: 100%;
+}
+
+section {
+  height: 100vh;
 }
 
 /* Navbar */
@@ -64,4 +68,25 @@ img {
 
 .navbar a:hover {
   border-bottom: var(--primary-color) 2px solid;
+}
+
+/* Header */
+.hero {
+  background: var(--primary-color);
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.hero .content h1 {
+  font-size: 55px;
 }

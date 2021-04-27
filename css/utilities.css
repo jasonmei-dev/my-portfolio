@@ -1,3 +1,20 @@
 :root {
   --primary-color: #0284d0;
+  --dark-color: #333;
+  --light-color: #fff;
+}
+
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  border: none;
+  /* border-radius: 5px; */
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
