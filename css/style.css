@@ -38,7 +38,12 @@ img {
 }
 
 section {
-  height: 100vh;
+  padding: 100px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /* Navbar */
@@ -89,4 +94,30 @@ section {
 
 .hero .content h1 {
   font-size: 55px;
+}
+
+/* Projects */
+#projects {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+#projects .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#projects .content .project-card {
+  padding: 40px 20px;
+  background: #222;
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+#projects .content .project-card video {
+  width: 400px;
 }
