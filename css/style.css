@@ -30,7 +30,7 @@ h2 {
 }
 
 p {
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
 
 img {
@@ -153,4 +153,46 @@ section h2 {
 
 #projects .content .project-card video {
   width: 400px;
+}
+
+/* Contact */
+#contact .content .contact-box {
+  display: flex;
+  padding: 20px 0;
+  /* position: relative; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+#contact .content .contact-box .icon {
+  min-width: 40px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 24px;
+}
+
+#contact .content .contact-box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+#contact .content .contact-box a:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 991px) {
+  section {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 100px 20px;
+  }
 }
