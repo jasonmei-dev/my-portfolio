@@ -173,30 +173,32 @@ section .section-header {
 
 /* Skills */
 #skills .content {
+  /* border: black solid 1px; */
   display: flex;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
   justify-content: center;
   align-items: center;
-  grid-gap: 1rem;
-  padding: 1rem 80px;
+  /* grid-gap: 1rem; */
+  /* padding: 1rem 80px; */
   font-size: 1.2rem;
   font-weight: 500;
   flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 
 #skills .content .skill-box {
-  padding: 1rem;
+  /* border: black solid 1px; */
+  /* padding: 1rem; */
   color: var(--dark-color);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 #skills .content .skill-box .skill-title {
+  /* border: black solid 1px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 #skills .content .skill-box .skill-title img {
